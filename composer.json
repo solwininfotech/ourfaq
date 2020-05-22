@@ -1,0 +1,22 @@
+{
+    "name": "solwin/ourfaq",
+    "description": "The FAQ Manager Magento 2 extension allows user to ask question to get answer from admin.",
+    "type": "magento2-module",
+    "version": "2.1.2",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Ourfaq\\": ""
+        }
+    }
+}
